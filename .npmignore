@@ -1,0 +1,9 @@
+node_modules
+src
+tests
+.vscode
+.env
+.gitignore
+biome.json
+bun.lock
+tsconfig.json

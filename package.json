@@ -1,0 +1,26 @@
+{
+  "name": "@john-ko/brioche",
+  "module": "build/brioche.js",
+  "version": "0.0.0-development.0",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "bun build ./src/brioche.ts --target bun --outdir ./build"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/bun": "latest",
+    "hono": "^4.7.4"
+  },
+  "keywords": [
+    "bun",
+    "brioche",
+    "router"
+  ],
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "type": "module"
+}
