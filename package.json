@@ -7,7 +7,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "bun build ./src/brioche.ts --target bun --outdir ./build"
+    "build": "tsc"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
