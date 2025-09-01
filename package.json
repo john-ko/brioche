@@ -1,7 +1,7 @@
 {
   "name": "@john-ko/brioche",
   "module": "build/brioche.js",
-  "version": "0.0.0-development.0",
+  "version": "0.0.0-development.1",
   "license": "ISC",
   "publishConfig": {
     "access": "public"
